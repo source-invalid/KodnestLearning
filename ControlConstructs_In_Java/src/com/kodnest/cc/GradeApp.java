@@ -8,7 +8,7 @@ public class GradeApp {
 		//Scanner scan = new Scanner(System.in);
 		//int score=scan.nextInt();
 		int score=new Scanner(System.in).nextInt();
-		Grade.getGrade(score);
+		If_Else_If.getGrade(score);
 	}
 
 }
