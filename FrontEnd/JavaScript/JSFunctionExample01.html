@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Find Area of JS Function</title>
+    </head>
+    <body>
+        <script>
+            function square(){
+                let a= parseInt(prompt("Enter the length of the side of Square : "))
+                let b=a*a
+                console.log("Area of Square is : "+b)
+            }
+
+            function circle(radius){
+                let res=Math.PI*(radius*radius)
+                console.log("Area of Circle is : "+res)
+            }
+
+            function rectangle(){
+                let a=parseInt(prompt("Enter the length of rectangle :"))
+                let b=parseInt(prompt("Enter the breadth of rectangle :"))
+                return a*b
+            }
+
+            function triangle(base, height){
+                return 0.5*base*height
+            }
+
+            square()
+            let radius= parseInt(prompt("Enter the radius of the circle : "))
+            circle(radius)
+            let recArea=rectangle()
+            console.log("Area of Rectangle is : "+recArea)
+            let base=parseInt(prompt("Enter the base of Triangle :"))
+            let height=parseInt(prompt("Enter the height of Triangle :"))
+            let triArea=triangle(base,height)
+            console.log("Area of Triangle :"+triArea)
+        </script>
+    </body>
+</html>

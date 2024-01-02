@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            JS Class & Object
+        </title>
+    </head>
+    <body>
+        <script>
+            class Vehicle{
+                engine_type="Petrol";
+                start(){
+                    console.log("Vehicle Started...")
+                }
+                stop(){
+                    console.log("Vehicle Stopped...")
+                }
+            }
+
+            class Bike extends Vehicle{
+                no_of_wheels=2;
+                race(){
+                    console.log("Bike is racing...")
+                }
+            }
+
+            bk = new Bike();
+            console.log(bk.engine_type);
+            console.log(bk.no_of_wheels);
+            bk.start();
+            bk.stop();
+            bk.race();
+           
+        </script>
+    </body>
+</html>
