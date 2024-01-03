@@ -1,0 +1,23 @@
+package com.kodnest.spring.SpringProject03;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class Employee {
+	List<String> technology;
+	Set<String> project;
+	Map<String, String> company;
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Employee(List<String> technology, Set<String> project, Map<String, String> company) {
+		super();
+		this.technology = technology;
+		this.project = project;
+		this.company = company;
+	}
+	
+}

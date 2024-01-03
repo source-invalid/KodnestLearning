@@ -1,0 +1,11 @@
+package com.kodnest.spring.SpringProject01;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ClassPathXmlApplicationContext 
+        System.out.println( "Hello World!" );
+    }
+}
