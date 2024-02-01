@@ -1,6 +1,0 @@
-package com.kodnest.spring.SpringProject01;
-
-public class JavaTeacher {
-	private int teacher_id;
-	private String teacher_name;
-}

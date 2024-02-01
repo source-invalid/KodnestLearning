@@ -1,7 +1,0 @@
-package com.kodnest.spring.SpringProject03;
-
-public class Employee {
-	List<String> technology;
-	set<String> project;
-	map<String, String> company;
-}

@@ -1,8 +1,0 @@
-INDEX VERSION 1.134+C:\Users\sanji\Documents\Kodenest\KodnestLearning\Concepts\Hibernate\.metadata\.plugins\org.eclipse.jdt.core
-571723567.index
-1167801477.index
-3424497155.index
-1865797976.index
-1427439545.index
-3161938572.index
-3458004542.index

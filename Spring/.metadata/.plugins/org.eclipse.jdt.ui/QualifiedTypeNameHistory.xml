@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-    <fullyQualifiedTypeName name="com.kodnest.spring.SpringProject01.JavaTeacher"/>
-    <fullyQualifiedTypeName name="com.kodnest.spring.SpringProject01.SqlTeacher"/>
-    <fullyQualifiedTypeName name="com.kodnest.spring.SpringProject01.PythonTeacher"/>
-</qualifiedTypeNameHistroy>
