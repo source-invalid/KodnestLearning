@@ -20,8 +20,7 @@ import org.json.JSONObject;
 
 public class MyWeatherApp {
 
-    private static final String API_KEY = "f451a94dd4ed12073cd94ccb4b5d9a3b";
-//"8304c4de0dd6e49529fc964274f3d3a6";
+    private static final String API_KEY = "";//Your API Key
     private static final String API_URL = "http://api.openweathermap.org/data/2.5/weather";
 
     public static void main(String[] args) {
