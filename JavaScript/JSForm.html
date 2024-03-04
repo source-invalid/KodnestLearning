@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>JS Form</title>
+    </head>
+    <body>
+        <form onsubmit="display(); return false">
+            <label>Enter your name :</label>
+            <input type="text" id="name">
+            <input type="button" value="Click here to submit">
+        </form>
+        <p id="para"></p>
+
+        <Script>
+            function display(){
+                let input=document.getElementById("name").value;
+                document.getElementById("para").innerHTML="Value = "+input;
+            }
+        </Script>
+    </body>
+</html>
